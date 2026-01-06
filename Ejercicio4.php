@@ -21,10 +21,10 @@
         $dias = [
             'Monday' => 'Lunes',
             'Tuesday' => 'Martes',
-            'Wednesday' => 'Miércoles',
+            'Wednesday' => 'Miercoles',
             'Thursday' => 'Jueves',
             'Friday' => 'Viernes',
-            'Saturday' => 'Sábado',
+            'Saturday' => 'Sabado',
             'Sunday' => 'Domingo'
         ];
         $diaEspanol = $dias[$diaIngles] ?? 'Fecha inválida';
