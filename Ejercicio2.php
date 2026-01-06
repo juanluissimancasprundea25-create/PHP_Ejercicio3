@@ -20,7 +20,9 @@
         $caracteres = strlen($texto);
         $palabras = str_word_count($texto);
         $reverso = strrev($texto);
-        $tienePHP = stripos($texto, 'PHP') !== false; // insensible a mayúsculas
+        
+        // insensible a mayúsculas
+        $tienePHP = stripos($texto, 'PHP') !== false; 
         echo "<h3>Ficha Estadistica:</h3>";
         echo "<p><strong>Caracteres:</strong> {$caracteres}</p>";
         echo "<p><strong>Palabras:</strong> {$palabras}</p>";
